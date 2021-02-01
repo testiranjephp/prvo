@@ -19,18 +19,20 @@ Klika UpTime Test is project for automate testing in Klika UpTime project. This 
 
 # Contributors 
 
-Klika UpTime Test is part of Klika UpTime application that was made on Klika internship lasted from November 2020 to Febfruary 2021. This part of Klika UpTime project was made by two interns Kazazić Ilma and Zec Amir, under great support mentor Čengić Muris. Dautbegović Emrah also give himself contribution in the beginning of this project.
+Klika UpTime Test is part of Klika UpTime application that was made on Klika internship lasted from November 2020 to February 2021. This part of Klika UpTime project was made by two interns Kazazić Ilma and Zec Amir, under great support mentor Čengić Muris. Dautbegović Emrah also give himself contribution in the beginning of this project.
 
 # Prerequisites
 
 To start use this project and run tests you need few requirements. 
 
 1.  Git - distributed version control system
-2.  Visual Studio - free IDE with great support for wide spectre of tools that help us in ever-day job in developing and testing
+2.  Visual Studio - free IDE with great support with wide spectre of tools that help us in ever-day job in developing and testing
 3.  Personal acces token on Azure DevOps - it is a way how we can authenticate into Azure DevOps 
+
 # Getting started
 
 ## Download
+
 Git
 
 1. Navigate your browser to  https://git-scm.com
@@ -43,7 +45,7 @@ Visual Studio
 2. Click on Download Visual Studio dropdown list
 3. Choose version you want to install 
 
-Note. It is recommended to install Visual Studio Community 2019 because it is published under free license for using.
+> Note. It is recommended to install Visual Studio Community 2019 because it is published under free license for using.
 
 ## Install
 
