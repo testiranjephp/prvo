@@ -7,7 +7,7 @@ Content
     1.  [Download](#Download)
     2.  [Install](#Install)
     3.  [Clone project](#Clone project)
-    4.  [Crate personal access token on Azure DevOps](#Crate personal access token on Azure DevOps)
+    4.  [Crate personal access token on Azure DevOps](#Crate-personal-access-token-on-Azure-DevOps)
 4.  Runsettings file
 5.  How to run tests
     1.  Run tests from Visual Studio     
@@ -40,6 +40,12 @@ q
 ## Download
 qdnqodnoqdnoq
 
+## Install
+qdq
+## Clone project
+q
+## Crate personal access token on Azure DevOps
+dqdq
 
 
       
