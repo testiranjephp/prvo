@@ -125,10 +125,10 @@ To run tests from command you need to find VSTest.Console executable file in you
 
 To run just one test we need to use /Tests option in VSTest.Console.
 Example 
-vstest.console MyTests.dll /Tests:TestToRun
+`vstest.console MyTests.dll /Tests:TestToRun`
 How to run all tests
 To run multple tests from terminal we just specify test file in VSTest.Console
-vstest.console MyTests.dll 
+`vstest.console MyTests.dll` 
 
 How to specify runsettings file
 
@@ -136,7 +136,7 @@ When you need to specifiy runsettings file from terminal you can use /Settings o
 
 Example
 
-vstest.console MyTests.dll /Settings:local.runsettings  
+`vstest.console MyTests.dll /Settings:local.runsettings`  
 
 
 # Conclusion
