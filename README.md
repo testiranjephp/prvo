@@ -123,6 +123,8 @@ To run tests from command you need to find VSTest.Console executable file in you
 1) Open your terminal
 2) Locate VSTest.Console and run in terminal
 
+How to run all tests
+
 To run just one test we need to use /Tests option in VSTest.Console.
 
 Example 
