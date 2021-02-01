@@ -18,8 +18,11 @@ Klika UpTime Test is project for automate testing in Klika UpTime project. This 
 
 
 # Contributors 
+
 Klika UpTime Test is part of Klika UpTime application that was made on Klika internship lasted from November 2020 to Febfruary 2021. This part of Klika UpTime project was made by two interns Kazazić Ilma and Zec Amir, under great support mentor Čengić Muris. Dautbegović Emrah also give himself contribution in the beginning of this project.
+
 # Prerequisites
+
 To start use this project and run tests you need few requirements. 
 
 1.  Git - distributed version control system
@@ -43,6 +46,7 @@ Visual Studio
 Note. It is recommended to install Visual Studio Community 2019 because it is published under free license for using.
 
 ## Install
+
 Git 
 Install Git for Windows
 
@@ -60,6 +64,7 @@ Install Git for Linux
 Installing Git on Linux depends of distribution wich you want to use. For instruction how to install Git on Linux visit https://git-scm.com/download/linux and find your distribution.
 
 ## Clone project
+
 Cloning project is actually downloading project on local machine. It is a way how you can run tests on your local computer. To clone Klika UpTime Tests project you need to follow these steps:
 
 1. Navigate your browser to https://bitbucket.org/klika/workspace/projects/KUM
@@ -70,6 +75,7 @@ Cloning project is actually downloading project on local machine. It is a way ho
 6. Paste repository link in terminal and press enter
 
 ## Crate personal access token on Azure DevOps
+
 Before you run your first test, you need to crate Personal Access Token on Azure Devops. To create this follow these steps:
 
 1) Sign in to your organization in Azure DevOps (https://dev.azure.com/{yourorganization})
@@ -81,7 +87,15 @@ Before you run your first test, you need to crate Personal Access Token on Azure
 7) Copy this token in runsettings file ande save it.
 
 # Runsettings file
-qdq
+
+Another important step before run tests is to include runsettings in Visual Studio. To do this follow next set of  instructions:
+
+1) Click on Test from menu in Visual Studio  
+2) Click on Configure Run Settings 
+3) After this click on Select Solution Wide runsettings file
+4) Locate runsettings file 
+5) Click on Open
+
 # How to run tests
 ## Run tests from Visual Studio
 qdqdq
