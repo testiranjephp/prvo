@@ -26,11 +26,11 @@ To start use this project and run tests you need few requirements.
 2.  Visual Studio - free IDE with great support for wide spectre of tools that help us in ever-day job in developing and testing
 3.  Personal acces token on Azure DevOps - it is a way how we can authenticate into Azure DevOps 
 # Getting started
-q
-qd
-qd
-q
-q
+Git
+1. Navigate your browser to  https://git-scm.com
+2. Click on Downloads
+3. Choose version for your OS
+
 ## Download
 qdnqodnoqdnoq
 
