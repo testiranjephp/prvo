@@ -9,10 +9,10 @@ Content
     3.  [Clone project](#Clone-project)
     4.  [Crate personal access token on Azure DevOps](#Crate-personal-access-token-on-Azure-DevOps)
 4.  [Runsettings file](#Runsettings-file)
-5.  How to run tests
-    1.  Run tests from Visual Studio     
-    2.  Run tests from command line
-6.  Conclusion
+5.  [How to run tests](#How-to-run-tests)
+    1.  [Run tests from Visual Studio](#Run-tests-from-Visual-Studio)     
+    2.  [Run tests from command line](#Run-tests-from-command-line)
+6.  [Conclusion](#conclusion)
 
 
 # Contributors 
@@ -48,6 +48,13 @@ q
 dqdq
 # Runsettings file
 qdq
+# How to run tests
+## Run tests from Visual Studio
+qdqdq
+## Run tests from command line
+qdqdq
+# Conclusion
+qdqdq
 
       
 
