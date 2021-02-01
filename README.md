@@ -89,6 +89,7 @@ Before you run your first test, you need to crate Personal Access Token on Azure
 6) When you're done, make sure to copy the token. For your security, it won't be shown again. Use this token as your password.
 7) Copy this token in runsettings file ande save it.
 
+
 # Runsettings file
 
 Another important step before run tests is to include runsettings in Visual Studio. To do this follow next set of  instructions:
@@ -98,6 +99,14 @@ Another important step before run tests is to include runsettings in Visual Stud
 3) After this click on **Select Solution Wide runsettings file**
 4) Locate runsettings file 
 5) Click on **Open**
+
+> Note. It is recommended to create local runsettings file and include in Visual Studio. Follow next steps to acomplish this.
+
+1.  Navigate to Resources/Runsettings folder and copy runsettings file in your project
+2.  Rename this file to local
+3.  Full name will be local.runsettings and Git will ignore this file
+4.  Write credentials in this local runsettings file
+5.  Include this file in project
 
 # How to run tests
 To run tests from Visual Studio we use in Test Explorer. It is powerfull tool with a lot of different option for tests. 
@@ -122,23 +131,19 @@ To run specific tests you find test you locate test you want to run and you have
 
 
 ## Run tests from command line
-You are not required to run tests only from Visual Studio IDE. You can use your command line for running tests. Visual Studio include VSTest.Console command line tool for running tests as an alternate way run test. 
-To run tests from command you need to find VSTest.Console executable file in your terminal. Usually this file is located in Microsoft subfolder in Visual Studio in Program files
-
-1) Open your terminal
-2) Locate VSTest.Console and run in terminal
+You are not required to run tests only from Visual Studio IDE. You can use your command line for running tests. Visual Studio include dotnet test command line tool for running tests as an alternate way run test. 
 
 ### How to run all tests
 
-To run just one test we need to use /Tests option in VSTest.Console.
+To run just one test we need to use dotnet test with **--filter** option.
 
 Example 
-`vstest.console MyTests.dll /Tests:TestToRun`
+`dotnet test projectToTest --filter SomeTestName `
 
 ### How to run all tests
 
 To run multple tests from terminal we just specify test file in VSTest.Console
-`vstest.console MyTests.dll` 
+`dotnet test projectToTest` 
 
 ### How to specify runsettings file
 
@@ -146,7 +151,15 @@ When you need to specifiy runsettings file from terminal you can use /Settings o
 
 Example
 
-`vstest.console MyTests.dll /Settings:local.runsettings`  
+`dotnet test projectToTest --settings:nameofrunsettingsfile`  
+
+### How to overwrite runsettings file
+
+To overwrite parameters in command line you can use TestRunParameters.Parameter
+
+Example
+
+`dotnet test projectToTest --settings:pathtorunsettingsfile -- TestRunParameters.Parameter(name="paramName", value="paramValue") `  
 
 
 # Conclusion
