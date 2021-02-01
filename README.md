@@ -5,8 +5,8 @@ Content
 2.  Prerequisites
 3.  Getting started
     1.   Download
-       1.   Git
-       2.   Visual Studio
+       1.  Git
+       2.  Visual Studio
     2.   Install
        1.   Git
        2.   Visual Studio
