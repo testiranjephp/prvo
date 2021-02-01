@@ -3,8 +3,6 @@
 Content
 1.  [Contributors](#Contributors)
 2.  [Prerequisites](#Prerequisites)
-    *  Item 3b
-    *  Item 3c
 3.  Getting started
     1.  Download
     2.  Install
