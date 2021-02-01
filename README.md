@@ -123,19 +123,19 @@ To run tests from command you need to find VSTest.Console executable file in you
 1) Open your terminal
 2) Locate VSTest.Console and run in terminal
 
-How to run all tests
+### How to run all tests
 
 To run just one test we need to use /Tests option in VSTest.Console.
 
 Example 
 `vstest.console MyTests.dll /Tests:TestToRun`
 
-How to run all tests
+### How to run all tests
 
 To run multple tests from terminal we just specify test file in VSTest.Console
 `vstest.console MyTests.dll` 
 
-How to specify runsettings file
+### How to specify runsettings file
 
 When you need to specifiy runsettings file from terminal you can use /Settings option in VSTest.Console
 
