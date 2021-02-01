@@ -7,9 +7,9 @@ Content
     1.  Download
        1.  Git
        2.  Visual Studio
-    2.   Install
-       1.   Git
-       2.   Visual Studio
+    2.  Install
+       1.  Git
+       2.  Visual Studio
     3.   Clone project
     4.   Crate personal access token on Azure DevOps
 4.   Runsettings file
