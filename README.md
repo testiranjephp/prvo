@@ -3,7 +3,7 @@
 Content
 1.  [Contributors](#Contributors)
 2.  [Prerequisites](#Prerequisites)
-3.  [Getting started](#Getting-started)
+3.  [Getting started](#Getting started)
     1.  [Download](#Download)
     2.  [Install](#Install)
     3.  [Clone project](#Clone project)
@@ -31,7 +31,7 @@ dqnodqnodq
 d
 qdqnodqnodqdq
 qdnoqdnoq
-# Getting-started
+# Getting started
 q
 qd
 qd
