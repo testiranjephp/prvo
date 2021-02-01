@@ -20,12 +20,11 @@ Klika UpTime Test is project for automate testing in Klika UpTime project. This 
 # Contributors 
 Klika UpTime Test is part of Klika UpTime application that was made on Klika internship lasted from November 2020 to Febfruary 2021. This part of Klika UpTime project was made by two interns Kazazić Ilma and Zec Amir, under great support mentor Čengić Muris. Dautbegović Emrah also give himself contribution in the beginning of this project.
 # Prerequisites
-dqndoq
-q
-dqnodqnodq
-d
-qdqnodqnodqdq
-qdnoqdnoq
+To start use this project and run tests you need few requirements. 
+
+1.  Git - distributed version control system
+2.  Visual Studio - free IDE with great support for wide spectre of tools that help us in ever-day job in developing and testing
+3.  Personal acces token on Azure DevOps - it is a way how we can authenticate into Azure DevOps 
 # Getting started
 q
 qd
