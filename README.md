@@ -107,11 +107,40 @@ First way to enable it is:
 Second option is to use keyboard shortcut 
 1) Press Ctrl + E shortcut
 ## Run tests from Visual Studio
-qdqdq
+To run all test in solution, you have two option.
+
+1) Click on Run all tests button in Test Explorer
+2 ) Use shortcut Ctrl + R
+
+To run specific tests you find test you locate test you want to run and you have two option to do this. 
+1) Click on Run button in Test Explorer
+2) Right click on test and select Run 
+
+
 ## Run tests from command line
-qdqdq
+You are not required to run tests only from Visual Studio IDE. You can use your command line for running tests. Visual Studio include VSTest.Console command line tool for running tests as an alternate way run test. 
+To run tests from command you need to find VSTest.Console executable file in your terminal. Usually this file is located in Microsoft subfolder in Visual Studio in Program files
+1) Open your terminal
+2) Locate VSTest.Console and run in terminal
+
+To run just one test we need to use /Tests option in VSTest.Console.
+Example 
+vstest.console MyTests.dll /Tests:TestToRun
+How to run all tests
+To run multple tests from terminal we just specify test file in VSTest.Console
+vstest.console MyTests.dll 
+
+How to specify runsettings file
+
+When you need to specifiy runsettings file from terminal you can use /Settings option in VSTest.Console
+
+Eample
+
+vstest.console MyTests.dll /Settings:local.runsettings  
+
+
 # Conclusion
-qdqdq
+Idea of this readme file is to enable informations how to use this project. Because it is goal just basic informations, if you need detailed informations it is good to consult official documentation on  https://docs.microsoft.com/en-us/visualstudio/test/?view=vs-2019.
 
       
 
