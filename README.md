@@ -50,24 +50,25 @@ Visual Studio
 ## Install
 
 Git 
+
 Install Git for Windows
 
 1. Open Git installer 
 2. Go through installation wizard and use recommended settings
-3. Check is Git installed with Git –version
+3. Check is Git installed with `Git –version`
 
 Install Git for macOS
 1. Open macOS Git installer 
 2. Go through installation wizard and use recommended settings
-3. Check is Git installed with Git –version
+3. Check is Git installed with `Git –version`
 
 Install Git for Linux
 
-Installing Git on Linux depends of distribution wich you want to use. For instruction how to install Git on Linux visit https://git-scm.com/download/linux and find your distribution.
+Installing Git on Linux depends of distribution wich you want to use. For instructions how to install Git on Linux visit https://git-scm.com/download/linux and find your distribution.
 
 ## Clone project
 
-Cloning project is actually downloading project on local machine. It is a way how you can run tests on your local computer. To clone Klika UpTime Tests project you need to follow these steps:
+Cloning project is actually downloading project on your local machine. It is a way how you can run tests on your local computer. To clone Klika UpTime Tests project you need to follow these steps:
 
 1. Navigate your browser to https://bitbucket.org/klika/workspace/projects/KUM
 2. Click on uptime-tests repository
@@ -81,8 +82,8 @@ Cloning project is actually downloading project on local machine. It is a way ho
 Before you run your first test, you need to crate Personal Access Token on Azure Devops. To create this follow these steps:
 
 1) Sign in to your organization in Azure DevOps (https://dev.azure.com/{yourorganization})
-2) From your home page, open your user settings, and then select Personal access tokens.
-3) And then select + New Token.
+2) From your home page, open your user settings, and then select **Personal access tokens**.
+3) And then select **+ New Token**.
 4) Name your token, select the organization where you want to use the token, and then choose a lifespan for your token.
 5) Select the scopes for this token to authorize for your specific tasks.
 6) When you're done, make sure to copy the token. For your security, it won't be shown again. Use this token as your password.
@@ -92,11 +93,11 @@ Before you run your first test, you need to crate Personal Access Token on Azure
 
 Another important step before run tests is to include runsettings in Visual Studio. To do this follow next set of  instructions:
 
-1) Click on Test from menu in Visual Studio  
-2) Click on Configure Run Settings 
-3) After this click on Select Solution Wide runsettings file
+1) Click on **Test** from menu in Visual Studio  
+2) Click on **Configure Run Settings** 
+3) After this click on **Select Solution Wide runsettings file**
 4) Locate runsettings file 
-5) Click on Open
+5) Click on **Open**
 
 # How to run tests
 To run tests from Visual Studio we use in Test Explorer. It is powerfull tool with a lot of different option for tests. 
@@ -110,7 +111,7 @@ Second option is to use keyboard shortcut
 1) Press **Ctrl + E** shortcut
 
 ## Run tests from Visual Studio
-To run all test in solution, you have two option.
+To run all tests in solution, you have two option.
 
 1) Click on **Run all tests** button in Test Explorer
 2) Use shortcut **Ctrl + R**
@@ -149,7 +150,7 @@ Example
 
 
 # Conclusion
-Idea of this readme file is to enable informations how to use this project. Because it is goal just basic informations, if you need detailed informations it is good to consult official documentation on  https://docs.microsoft.com/en-us/visualstudio/test/?view=vs-2019.
+Idea of this readme file is to enable informations how to use this project. Because it is goal just basic informations, if you need detailed informations, it is good to consult official documentation on  https://docs.microsoft.com/en-us/visualstudio/test/?view=vs-2019.
 
       
 
