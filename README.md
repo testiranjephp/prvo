@@ -26,6 +26,8 @@ To start use this project and run tests you need few requirements.
 2.  Visual Studio - free IDE with great support for wide spectre of tools that help us in ever-day job in developing and testing
 3.  Personal acces token on Azure DevOps - it is a way how we can authenticate into Azure DevOps 
 # Getting started
+
+## Download
 Git
 
 1. Navigate your browser to  https://git-scm.com
@@ -39,11 +41,15 @@ Visual Studio
 3. Choose version you want to install 
 
 Note. It is recommended to install Visual Studio Community 2019 because it is published under free license for using.
-## Download
-qdnqodnoqdnoq
 
 ## Install
-qdq
+Git 
+Install git for Windows
+
+1. Open Git installer 
+2. Go through installation wizard and use recommended settings
+3. Check is Git installed with Git –version
+
 ## Clone project
 q
 ## Crate personal access token on Azure DevOps
