@@ -134,7 +134,7 @@ How to specify runsettings file
 
 When you need to specifiy runsettings file from terminal you can use /Settings option in VSTest.Console
 
-Eample
+Example
 
 vstest.console MyTests.dll /Settings:local.runsettings  
 
