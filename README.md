@@ -97,6 +97,15 @@ Another important step before run tests is to include runsettings in Visual Stud
 5) Click on Open
 
 # How to run tests
+To run tests from Visual Studio we use in Test Explorer. It is powerfull tool with a lot of different option for tests. 
+To enable Test Explorer in Visual studio you have two option:
+
+1.
+1. Click on Test in Visual Studio menu
+2. When dropdown open choose Test Explorer
+
+2. 
+1) Press Ctrl + E shortcut
 ## Run tests from Visual Studio
 qdqdq
 ## Run tests from command line
