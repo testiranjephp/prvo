@@ -1,6 +1,8 @@
 # Klika UpTime Tests
 
-Content
+Klika UpTime Test is project for automate testing in Klika UpTime project. This project includes framework for testing wich is composed by UI and API part for testing. Goal of this readme file is to simplify process of using this framework for others developers and users who will use this framework for testing.
+
+# Content
 1.  [Contributors](#Contributors)
 2.  [Prerequisites](#Prerequisites)
 3.  [Getting started](#Getting-started)
