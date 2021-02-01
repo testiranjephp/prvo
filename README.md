@@ -14,8 +14,8 @@ Content
     4.   Crate personal access token on Azure DevOps
 4.  Runsettings file
 5.  How to run tests
-   1.  Run tests from Visual Studio     
-   2.  Run tests from command line
+    1.  Run tests from Visual Studio     
+    2.  Run tests from command line
 6.  Conclusion
    
     
