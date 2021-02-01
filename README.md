@@ -18,14 +18,7 @@ Klika UpTime Test is project for automate testing in Klika UpTime project. This 
 
 
 # Contributors 
-d
-qdqdqnodnq
-dq
-d
-qd
-qdnqodnqodnq
-qdqd
-qndoq
+Klika UpTime Test is part of Klika UpTime application that was made on Klika internship lasted from November 2020 to Febfruary 2021. This part of Klika UpTime project was made by two interns Kazazić Ilma and Zec Amir, under great support mentor Čengić Muris. Dautbegović Emrah also give himself contribution in the beginning of this project.
 # Prerequisites
 dqndoq
 q
