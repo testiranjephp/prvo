@@ -44,11 +44,20 @@ Note. It is recommended to install Visual Studio Community 2019 because it is pu
 
 ## Install
 Git 
-Install git for Windows
+Install Git for Windows
 
 1. Open Git installer 
 2. Go through installation wizard and use recommended settings
 3. Check is Git installed with Git –version
+
+Install Git for macOS
+1. Open macOS Git installer 
+2. Go through installation wizard and use recommended settings
+3. Check is Git installed with Git –version
+
+Install Git for Linux
+
+Installing Git on Linux depends of distribution wich you want to use. For instruction how to install Git on Linux visit https://git-scm.com/download/linux and find your distribution.
 
 ## Clone project
 q
