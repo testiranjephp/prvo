@@ -106,11 +106,12 @@ First way to enable it is:
 
 Second option is to use keyboard shortcut 
 1) Press Ctrl + E shortcut
+
 ## Run tests from Visual Studio
 To run all test in solution, you have two option.
 
 1) Click on Run all tests button in Test Explorer
-2 ) Use shortcut Ctrl + R
+2) Use shortcut Ctrl + R
 
 To run specific tests you find test you locate test you want to run and you have two option to do this. 
 1) Click on Run button in Test Explorer
